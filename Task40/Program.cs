@@ -9,7 +9,8 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 bool IfTriangleExists(int one, int two, int three)
 {
-    return one+two>three && two+three>one && three+one>two;
+    if(one+two>three && two+three>one && three+one>two) return true;
+    return false;
 }
 
 if(IfTriangleExists(a,b,c)) Console.WriteLine("Yes");
