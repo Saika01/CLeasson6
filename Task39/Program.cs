@@ -31,6 +31,6 @@ void ReverseArray (int[] arr)
 }
 
 int[] array = CreateArrayRndInt(5, 1, 10);
-PrintArray(array);
+ArrayPrinted(array);
 ReverseArray(array);
-PrintArray(array);
+ArrayPrinted(array);
